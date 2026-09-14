@@ -1,4 +1,4 @@
-# i18n-cache
+# intl-cache
 
 A zero-dependency cache for expensive `Intl.*` formatter constructors, designed so a future React layer can look up shared formatters without paying construction cost per render.
 

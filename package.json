@@ -1,9 +1,23 @@
 {
-  "name": "i18n-cache",
+  "name": "intl-cache",
   "version": "0.0.0",
-  "description": "Zero-dependency cache for Intl.* formatter instances",
+  "description": "Zero-dependency cache for shared Intl.* formatter instances",
+  "keywords": [
+    "cache",
+    "datetimeformat",
+    "formatter",
+    "i18n",
+    "intl",
+    "numberformat"
+  ],
+  "homepage": "https://github.com/ericchernuka/intl-cache#readme",
+  "bugs": "https://github.com/ericchernuka/intl-cache/issues",
   "license": "MIT",
   "author": "Eric Chernuka <ericchernuka@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericchernuka/intl-cache.git"
+  },
   "files": [
     "dist"
   ],
@@ -34,8 +48,8 @@
   },
   "devEngines": {
     "packageManager": {
-      "name": "npm",
-      "version": "^12.0.0",
+      "name": "pnpm",
+      "version": "^11.0.0",
       "onFail": "warn"
     }
   },
