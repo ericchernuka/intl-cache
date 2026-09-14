@@ -4,13 +4,7 @@ A zero-dependency cache for `Intl.*` formatter constructors.
 
 Constructing an `Intl.NumberFormat` is slow enough that doing it inside a render or a loop shows up in profiles. `intl-cache` keeps one instance per locale and options, so you can build formatters inline and still reuse them.
 
-## Installation
-
-```
-pnpm add intl-cache
-```
-
-The package is ESM only.
+This is a reference implementation, not a published package. Copy the code or adapt the approach. The examples import from `intl-cache`; point that at wherever you keep the source.
 
 ## Usage
 
